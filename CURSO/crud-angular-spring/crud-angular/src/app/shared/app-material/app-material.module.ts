@@ -6,6 +6,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
 
@@ -16,7 +17,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatToolbarModule,
     MatProgressSpinnerModule,
     MatListModule,
-    MatDialogModule
+    MatDialogModule,
+    MatButtonModule
     
 
   ]
